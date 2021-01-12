@@ -1,9 +1,15 @@
-<footer class="{{ 'fixed' if path == 'home' }} bottom-0 text-center w-full py-4">
-    <small class="text-gray-500">Copyright ©
-        {{settings.name}}
-        2020. Made with ❤ by
-        <a href="{{settings.url}}" target="_blank" class="underline">{{settings.author}}</a>
-        •
-        <a href="https://github.com/surjithctly/neat-starter" class="underline" target="_blank" rel="noopener">View on Github</a>
-    </small>
-</footer>
+<div class="footer mt-5">
+  {% if settings.complement %}
+  <p class="text-gray-500 center">{{ settings.complement }}
+  </p>
+<br/>
+  {% endif %}
+
+  {% if links.footerLinks %}
+  <p class="social-media">
+    {% for item in links.footerLinks %}
+    <a href="{{item.url}}" rel="noopener" class="fa fa-{{item.icon}}" title="{{item.title}}" target="_blank"></a>
+    {% endfor %}
+  </p>
+  {% endif %}
+</div>

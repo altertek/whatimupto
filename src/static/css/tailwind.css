@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/*Your Custom CSS Goes here*/
+@import url(https://fonts.googleapis.com/css?family=Nunito:400);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400, 400light);
+@import url(https://fonts.googleapis.com/css?family=Gothic+A1:400);
+
+/*Your Custom CSS Goes a here */
 
 h1 {
   @apply text-4xl tracking-tighter mb-3 text-center lg:text-7xl;

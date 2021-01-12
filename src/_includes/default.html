@@ -1,35 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-      {{title}}
-    </title>
-    {% if description %}
-      <meta name="description" content="{{description}}"/>
-    {% endif %}
-    {% block head %}{% endblock %}
-    <link rel="stylesheet" type="text/css" href="/static/css/style.css"/>
-    {% if prism == true %}
-      <link rel="stylesheet" type="text/css" href="/static/css/prism-tomorrow.css">
-    {% endif %}
-  </head>
-  <body>
-    {% include "./partials/navbar.html" %}
+<head>
+  <meta charset="utf-8" />
+  <link rel="shortcut icon" href="https://saxjst.com/assets/images/logos/fav.png" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#4285f4" />
+  {% if description %}
+    <meta name="description" content="{{description}}"/>
+  {% endif %}
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="/static/css/style.css" />
+     <title>{{settings.title}}</title>
+     <style>
+       body{
+         background-color: #191a23;
+       }
+       h5{
+             color: #4285f4;
+       }
+       .name{
+           color: #fff;
+       }
+       .love{
+           color: #343a40 !important;
+       }
+       /*----------------- Mail-------------------- */
+       #email{
+           text-decoration: none;
+           float: right;
+           color:#343a40;
+       }
+       .footer{
+           margin-top: 5% !important;
+           margin-bottom: 10px;
+       }
+       @media (max-width: 479px) {
+            .footer{
+            margin-top: 35% !important;
+            }
+       }
+     </style>
+</head>
+<body>
+<div class="container" style="max-width:680px;">
+  <div class="mt-5 center">
+    <img src="https://avatars0.githubusercontent.com/u/51910006?s=460&u=f12676fbed94fd320d0191f1d402234c89509367&v=4" class="m-3 rounded-circle" alt="image" width="100px" height="100px">
+    <div class="media-body">
+      <h5 class="align-items-center mt-2"><a href="{{ settings.url }}" style="color:#4285f4;" target="_blank">{{ settings.author }}</a></h5>
+        <br>
+      <p class="center">{{ settings.description }}</p>
+    </div>
+  </div>
+  <br>
 
-    {{ content | safe }}
+    {% include "./partials/links.html" %}
 
-    {% include "./partials/footer.html" %}
 
-    <script src="/static/js/alpine.js"></script>
+   {% include "./partials/footer2.html" %}
 
-    {% if path == "home" %}
-      <!-- Netlify Identity Widget -->
-      <!-- Needed only if you are using Netlify Identity feature -->
-      <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    {% endif %}
+</div>
+</body>
 
-  </body>
 </html>
