@@ -4,7 +4,7 @@ mainLinks:
     thumbnail: ""
   - desc: Altertek - Ethics in technology
     url: https://saxjst.com/vision-and-values/
-    thumbnail: ""
+    thumbnail: /static/img/altertek.png
   - desc: "📜 Best Practice : How to document JS modules ?"
     url: https://saxjst.com/vision-and-values/
     thumbnail: ""
