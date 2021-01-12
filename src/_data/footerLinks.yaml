@@ -1,13 +1,13 @@
 links:
+  - icon: at
+    url: mailto:samuel@saxjst.com
+    title: mail
   - icon: linkedin
     title: linkedin
     url: https://fr.linkedin.com/in/samueldjoset
   - icon: home
     url: https://saxjst.com/
     title: website
-  - icon: at
-    url: mailto:samuel@saxjst.com
-    title: mail
   - icon: github
     url: https://github.com/saxjst
     title: github
