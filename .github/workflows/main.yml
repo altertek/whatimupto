@@ -30,15 +30,10 @@ jobs:
     - name: Generate website
       run: npm install && npm run build
 
-    # - name: Create dist folder
-    #   run: |
-    #     mkdir dist
-    #     ls -A | grep -v "dist" | xargs cp -rt dist
-
     - name: Deploy to Netlify
       uses: nwtgck/actions-netlify@v1.1.5
       with:
-        publish-dir: './dist'
+        publish-dir: '_dist'
         production-branch: master
         github-token: ${{ secrets.GITHUB_TOKEN }}
         deploy-message: "Deploy from GitHub Actions"
