@@ -1,5 +1,4 @@
 name: whatimupto
 author: Samuel JOSET
 url: https://saxjst.com/
-complement: For more information, checkout <a href="https://saxjst.com/"
-  class="explicit-link" target="_blank" rel="noopener">my website</a>
+complement: For more information, checkout [my website](https://saxjst.com/)
