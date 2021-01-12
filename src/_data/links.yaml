@@ -17,7 +17,7 @@ footerLinks:
 mainLinks:
   - desc: Vision and Values
     url: https://saxjst.com/vision-and-values/
-    thumbnail: /static/img/uchiha-police.png
+    thumbnail: ""
   - desc: Altertek - Ethics in technology
     url: https://saxjst.com/vision-and-values/
     thumbnail: /static/img/uchiha-police.png
