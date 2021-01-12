@@ -1,8 +1,27 @@
 footerLinks:
-  - icon: facebook
-    url: "444"
-    title: sssddd
+  - icon: at
+    url: mailto:samuel@saxjst.com
+    title: mail
+  - icon: linkedin
+    title: linkedin
+    url: https://fr.linkedin.com/in/samueldjoset
+  - icon: home
+    url: https://saxjst.com/
+    title: website
+  - icon: github
+    url: https://github.com/saxjst
+    title: github
+  - icon: download
+    url: https://drive.google.com/file/d/1voDLLccBBt2vMqsTSpXcz9WYO2tOwlXq/view?usp=sharing
+    title: resume
 mainLinks:
-  - thumbnail: /static/img/icon.svg
-    desc: "8888"
-    url: jijiji
+  - desc: "Vision and Values"
+    url: https://saxjst.com/vision-and-values/
+  - desc: "Altertek - Ethics in technology"
+    url: https://saxjst.com/vision-and-values/
+  - desc: "📜 Best Practice : How to document JS modules ?"
+    url: https://saxjst.com/vision-and-values/
+  - desc: "🧠 Blog Post: What is functional programming ?"
+    url: https://saxjst.com/vision-and-values/
+  - desc: "👀 Open Source: koa-handler - Easily configure koa apps"
+    url: https://saxjst.com/vision-and-values/
