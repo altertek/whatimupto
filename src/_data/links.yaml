@@ -15,13 +15,13 @@ mainLinks:
     url: https://github.com/saxjst/koa-handler
     thumbnail: /static/img/octo-propaganda.jpg
 footerLinks:
-  - icon: at
+  - icon: envelope
     url: mailto:samuel@saxjst.com
     title: mail
   - icon: linkedin
     title: linkedin
     url: https://fr.linkedin.com/in/samueldjoset
-  - icon: home
+  - icon: globe
     url: https://saxjst.com/
     title: website
   - icon: github
