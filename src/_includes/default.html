@@ -7,31 +7,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#4285f4" />
   {% if description %}
-    <meta name="description" content="{{description}}"/>
+  <meta name="description" content="{{description}}"/>
   {% endif %}
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link type="text/css" rel="stylesheet" href="/static/css/style.css" />
-     <title>{{settings.title}}</title>
+  <title>{{settings.title}}</title>
 </head>
 <body style="background-color: {{ style.background }};">
-<div class="container" style="max-width:680px;">
-  <div class="mt-5 center">
-    <img src="{{ settings.logo }}" class="m-3 rounded-circle" alt="image" width="100px" height="100px">
-    <div class="media-body">
-      <h5 class="align-items-center mt-2"><a href="{{ settings.url }}" style="color: {{ style.name }};" target="_blank">{{ settings.name }}</a></h5>
-        <br>
-      <p class="center">{{ settings.description }}</p>
-    </div>
-  </div>
-  <br>
+  <div class="container" style="max-width:680px;">
+    {% include "./partials/bio.html" %}
 
     {% include "./partials/links.html" %}
 
-
-   {% include "./partials/footer.html" %}
-
-</div>
+    {% include "./partials/footer.html" %}
+  </div>
 </body>
-
 </html>

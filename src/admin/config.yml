@@ -64,4 +64,4 @@ collections:
           - { label: URL, name: url, widget: string }
           - { label: Logo, name: logo, widget: image, required: false }
           - { label: Favicon, name: favicon, widget: image, required: false }
-          - { label: "Description", name: "description", widget: "text", required: false }
+          - { label: "Bio", name: "bio", widget: "text", required: false }
