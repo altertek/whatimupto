@@ -12,9 +12,9 @@ mainLinks:
     thumbnail: ""
     isVisible: true
   - desc: "Blog Post: What is functional programming ?"
-    url: https://saxjst.com/vision-and-values/
+    url: https://blog.saxjst.com
     thumbnail: ""
-    isVisible: true
+    isVisible: false
   - desc: "Open Source: koa-handler - Easily configure koa apps"
     url: https://github.com/saxjst/koa-handler
     thumbnail: /static/img/octo-propaganda.jpg
