@@ -38,7 +38,7 @@ collections:
             collapsed: false
             fields:
               - { label: Title, name: title, widget: string }
-              - { label: Type, name: icon, widget: select, options: ["facebook", "linkedin", "twitter", "spotify", "home", "at", "github", "download"] }
+              - { label: Icon, name: icon, widget: select, options: ["facebook", "linkedin", "twitter", "spotify", "globe", "home", "at", "github", "download", "envelope"] }
               - { label: URL, name: url, widget: string }
   - label: "Settings"
     name: "settings"
