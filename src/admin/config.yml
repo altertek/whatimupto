@@ -31,6 +31,7 @@ collections:
               - { label: Desc, name: desc, widget: string }
               - { label: URL, name: url, widget: string }
               - { label: Thumbnail, name: thumbnail, widget: image, required: false }
+              - { label: "Is visible", name: "isVisible", widget: "boolean", default: true }
           - label: Footer Links
             name: footerLinks
             widget: list
@@ -40,6 +41,7 @@ collections:
               - { label: Title, name: title, widget: string }
               - { label: Icon, name: icon, widget: select, options: ["facebook", "linkedin", "twitter", "spotify", "globe", "home", "at", "github", "download", "envelope"] }
               - { label: URL, name: url, widget: string }
+              - { label: "Is visible", name: "isVisible", widget: "boolean", default: true }
   - label: "Settings"
     name: "settings"
     editor:
@@ -55,4 +57,3 @@ collections:
           - { label: Logo, name: logo, widget: image, required: false }
           - { label: Favicon, name: favicon, widget: image, required: false }
           - { label: "Description", name: "description", widget: "text", required: false }
-          - { label: "Complement", name: "complement", widget: "markdown", required: false}

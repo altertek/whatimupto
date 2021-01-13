@@ -1,33 +1,22 @@
 <div>
   {% if links.mainLinks %}
   {% for item in links.mainLinks %}
-<!--
-  <div class="btn btn-outline-perso btn-lg btn-block" role="button" style="display: flex; align-items: center;">
+  {% if links.isVisible %}
+
+  <a class="btn btn-outline-perso btn-lg btn-block" role="button" style="display: flex; align-items: center;" href="{{item.url}}"  target="_blank">
+    {% if item.thumbnail %}
+    <span style="display: block;"><img src="{{item.thumbnail}}" class="rounded float-left thumbnail" style="width:30px;height:30px;" title="{{item.title}}" /></span>
+    {% endif %}
 
     {% if item.thumbnail %}
-    <img src="{{item.thumbnail}}" class="rounded float-left thumbnail" style="width:30px;height:30px;display: block;" title="{{item.title}}" />
+    <span class="col-sm-11">{{item.desc}}</span>
+    {% else %}
+    <span class="col-sm-12">{{item.desc}}</span>
     {% endif %}
-    <a class="col-sm-11 center" style="text-decoration: none;">
-
-      {{item.desc}}</a>
-
-</div> -->
-
-<a class="btn btn-outline-perso btn-lg btn-block" role="button" style="display: flex; align-items: center;" href="{{item.url}}"  target="_blank">
-  {% if item.thumbnail %}
-  <span style="display: block;"><img src="{{item.thumbnail}}" class="rounded float-left thumbnail" style="width:30px;height:30px;" title="{{item.title}}" /></span>
-  {% endif %}
-
-  {% if item.thumbnail %}
-  <span class="col-sm-11">{{item.desc}}</span>
-  {% else %}
-  <span class="col-sm-12">{{item.desc}}</span>
-  {% endif %}
-
-
-</a>
+  </a>
 
   <br/>
+  {% endif %}
   {% endfor %}
   {% endif %}
 </div>
