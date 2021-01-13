@@ -1,7 +1,7 @@
 <div>
   {% if links.mainLinks %}
   {% for item in links.mainLinks %}
-  {% if links.isVisible %}
+  {% if item.isVisible %}
 
   <a class="btn btn-outline-perso btn-lg btn-block" role="button" style="display: flex; align-items: center;" href="{{item.url}}"  target="_blank">
     {% if item.thumbnail %}
