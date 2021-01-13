@@ -13,7 +13,7 @@ mainLinks:
     thumbnail: ""
   - desc: "Open Source: koa-handler - Easily configure koa apps"
     url: https://github.com/saxjst/koa-handler
-    thumbnail: ""
+    thumbnail: /static/img/octo-propaganda.jpg
 footerLinks:
   - icon: at
     url: mailto:samuel@saxjst.com
