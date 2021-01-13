@@ -3,16 +3,16 @@ mainLinks:
     url: https://saxjst.com/vision-and-values/
     thumbnail: /static/img/favicon_white.png
   - desc: Altertek - Ethics in technology
-    url: https://saxjst.com/vision-and-values/
+    url: https://altertek.org/en/
     thumbnail: /static/img/altertek.png
-  - desc: "📜 Best Practice : How to document JS modules ?"
+  - desc: "Best Practice : How to document JS modules ?"
+    url: https://docs.saxjst.com/#/documentation/api-of-a-module
+    thumbnail: ""
+  - desc: "Blog Post: What is functional programming ?"
     url: https://saxjst.com/vision-and-values/
     thumbnail: ""
-  - desc: "🧠 Blog Post: What is functional programming ?"
-    url: https://saxjst.com/vision-and-values/
-    thumbnail: ""
-  - desc: "👀 Open Source: koa-handler - Easily configure koa apps"
-    url: https://saxjst.com/vision-and-values/
+  - desc: "Open Source: koa-handler - Easily configure koa apps"
+    url: https://github.com/saxjst/koa-handler
     thumbnail: ""
 footerLinks:
   - icon: at
