@@ -14,12 +14,12 @@
   <link type="text/css" rel="stylesheet" href="/static/css/style.css" />
      <title>{{settings.title}}</title>
 </head>
-<body>
+<body style="background-color: {{ style.background }};">
 <div class="container" style="max-width:680px;">
   <div class="mt-5 center">
     <img src="{{ settings.logo }}" class="m-3 rounded-circle" alt="image" width="100px" height="100px">
     <div class="media-body">
-      <h5 class="align-items-center mt-2"><a href="{{ settings.url }}" style="color:#4285f4;" target="_blank">{{ settings.author }}</a></h5>
+      <h5 class="align-items-center mt-2"><a href="{{ settings.url }}" style="color: {{ style.name }};" target="_blank">{{ settings.name }}</a></h5>
         <br>
       <p class="center">{{ settings.description }}</p>
     </div>

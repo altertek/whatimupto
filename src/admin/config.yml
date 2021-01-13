@@ -42,6 +42,14 @@ collections:
               - { label: Icon, name: icon, widget: select, options: ["facebook", "linkedin", "twitter", "spotify", "globe", "home", "at", "github", "download", "envelope"] }
               - { label: URL, name: url, widget: string }
               - { label: "Is visible", name: "isVisible", widget: "boolean", default: true }
+      - label: "Style"
+        name: "style"
+        description: "style for the page"
+        file: "src/_data/style.yaml"
+        fields:
+          - { label: Background, name: background, widget: color, required: false }
+          - { label: Name, name: name, widget: color, required: false }
+          - { label: Bio, name: bio, widget: color, required: false }
   - label: "Settings"
     name: "settings"
     editor:
@@ -52,7 +60,7 @@ collections:
         file: "src/_data/settings.yaml"
         fields:
           - { label: Name, name: name, widget: string }
-          - { label: Author, name: author, widget: string }
+          - { label: PageTitle, name: pageTitle, widget: string }
           - { label: URL, name: url, widget: string }
           - { label: Logo, name: logo, widget: image, required: false }
           - { label: Favicon, name: favicon, widget: image, required: false }
