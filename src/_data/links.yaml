@@ -2,31 +2,41 @@ mainLinks:
   - desc: Vision and Values
     url: https://saxjst.com/vision-and-values/
     thumbnail: /static/img/favicon_white.png
+    isVisible: true
   - desc: Altertek - Ethics in technology
     url: https://altertek.org/en/
     thumbnail: /static/img/altertek.png
+    isVisible: true
   - desc: "Best Practice : How to document JS modules ?"
     url: https://docs.saxjst.com/#/documentation/api-of-a-module
     thumbnail: ""
+    isVisible: true
   - desc: "Blog Post: What is functional programming ?"
     url: https://saxjst.com/vision-and-values/
     thumbnail: ""
+    isVisible: true
   - desc: "Open Source: koa-handler - Easily configure koa apps"
     url: https://github.com/saxjst/koa-handler
     thumbnail: /static/img/octo-propaganda.jpg
+    isVisible: true
 footerLinks:
   - icon: envelope
     url: mailto:samuel@saxjst.com
     title: mail
+    isVisible: true
   - icon: linkedin
     title: linkedin
     url: https://fr.linkedin.com/in/samueldjoset
+    isVisible: true
   - icon: globe
     url: https://saxjst.com/
     title: website
+    isVisible: true
   - icon: github
     url: https://github.com/saxjst
     title: github
+    isVisible: true
   - icon: download
     url: https://drive.google.com/file/d/1voDLLccBBt2vMqsTSpXcz9WYO2tOwlXq/view?usp=sharing
     title: resume
+    isVisible: true
