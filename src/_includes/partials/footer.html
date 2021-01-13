@@ -4,7 +4,7 @@
     {% for item in links.footerLinks %}
     {% if item.isVisible %}
     <a href="{{item.url}}" rel="noopener" class="fa fa-{{item.icon}}" title="{{item.title}}" target="_blank"></a>
-    {% endfor %}
+    {% endif %}
     {% endfor %}
   </p>
   {% endif %}
