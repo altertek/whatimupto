@@ -9,17 +9,13 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
-    "@tailwindcss/typography": "^0.3.1",
-    "alpinejs": "^2.6.0",
     "cross-env": "^7.0.2",
     "cssnano": "^4.1.10",
     "html-minifier": "^4.0.0",
     "js-yaml": "^3.14.0",
     "luxon": "^1.25.0",
     "npm-run-all": "^4.1.5",
-    "postcss-cli": "^8.3.1",
-    "prismjs": "^1.21.0",
-    "tailwindcss": "^2.0.2"
+    "postcss-cli": "^8.3.1"
   },
   "dependencies": {
     "autoprefixer": "^10.1.0",
