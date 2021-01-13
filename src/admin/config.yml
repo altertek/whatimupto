@@ -28,19 +28,18 @@ collections:
             allow_add: true
             collapsed: false
             fields:
+              - { label: Desc, name: desc, widget: string }
               - { label: URL, name: url, widget: string }
               - { label: Thumbnail, name: thumbnail, widget: image, required: false }
-              - { label: Desc, name: desc, widget: string }
           - label: Footer Links
             name: footerLinks
             widget: list
             allow_add: true
             collapsed: false
             fields:
+              - { label: Title, name: title, widget: string }
               - { label: Type, name: icon, widget: select, options: ["facebook", "linkedin", "twitter", "spotify", "home", "at", "github", "download"] }
               - { label: URL, name: url, widget: string }
-              - { label: Title, name: title, widget: string }
-
   - label: "Settings"
     name: "settings"
     editor:
