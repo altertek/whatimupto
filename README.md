@@ -55,7 +55,7 @@ npm run start
 
 ## Production
 
--For the github auth, add the name of your repo [here](https://github.com/altertek/whatimupto/blob/master/src/admin/config.yml#L6)
+- For the github auth, add the name of your repo [here](https://github.com/altertek/whatimupto/blob/master/src/admin/config.yml#L6)
 - For other auth methods, check the [netlify cms documentation](https://www.netlifycms.org/docs/backends-overview)
 
 ## Technologies used:
