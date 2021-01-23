@@ -3,7 +3,7 @@
   {% for item in links.mainLinks %}
   {% if item.isVisible %}
 
-  <a class="btn btn-outline-perso btn-lg btn-block" role="button" style="display: flex; align-items: center;" href="{{item.url}}"  target="_blank">
+  <a class="btn btn-outline-custom btn-lg btn-block" role="button" style="display: flex; align-items: center;" href="{{item.url}}"  target="_blank">
     {% if item.thumbnail %}
     <span style="display: block;"><img src="{{item.thumbnail}}" class="rounded float-left thumbnail" style="width:30px;height:30px;" title="{{item.title}}" /></span>
     {% endif %}

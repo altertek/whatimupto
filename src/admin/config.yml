@@ -50,6 +50,10 @@ collections:
           - { label: Background, name: background, widget: color, required: false }
           - { label: Name, name: name, widget: color, required: false }
           - { label: Bio, name: bio, widget: color, required: false }
+          - { label: Button First Color, name: buttonFirstColor, widget: color, required: false }
+          - { label: Button Second Color, name: buttonSecondColor, widget: color, required: false }
+          - { label: Footer First Color, name: footerFirstColor, widget: color, required: false }
+          - { label: Footer Second Color, name: footerSecondColor, widget: color, required: false }
   - label: "Settings"
     name: "settings"
     editor:

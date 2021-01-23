@@ -13,6 +13,29 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link type="text/css" rel="stylesheet" href="/static/css/style.css" />
   <title>{{settings.title}}</title>
+  <style>
+  .btn-outline-custom {
+    color: {{ style.buttonFirstColor }};
+    border-color: {{ style.buttonFirstColor }};
+  }
+
+  .btn-outline-custom:hover {
+    color: {{ style.buttonSecondColor }};
+    background-color: {{ style.buttonFirstColor }};
+    border-color: {{ style.buttonFirstColor }};
+  }
+
+  .btn-outline-custom:hover > span {
+    color: {{ style.buttonSecondColor }} !important;
+  }
+
+  .social-media a {
+    color: {{ style.footerFirstColor }};
+  }
+  .social-media a:hover {
+    color: {{ style.footerSecondColor }};
+  }
+  </style>
 </head>
 <body style="background-color: {{ style.background }};">
   <div class="container" style="max-width:680px;">
