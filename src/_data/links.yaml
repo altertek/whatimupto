@@ -1,42 +1,33 @@
 mainLinks:
-  - desc: Vision and Values
-    url: https://saxjst.com/vision-and-values/
-    thumbnail: /static/img/favicon_white.png
-    isVisible: true
-  - desc: Altertek - Ethics in technology
+  - desc: This open source project is made by Altertek
     url: https://altertek.org/en/
     thumbnail: /static/img/altertek.png
     isVisible: true
-  - desc: "Best Practice : How to document JS modules ?"
-    url: https://docs.saxjst.com/#/documentation/api-of-a-module
-    thumbnail: ""
+  - desc: Use it as an alternative to linktree
+    url: https://linktr.ee
     isVisible: true
-  - desc: "Blog Post: What is functional programming ?"
-    url: https://blog.saxjst.com
-    thumbnail: ""
-    isVisible: false
-  - desc: "Open Source: koa-handler - Easily configure koa apps"
-    url: https://github.com/saxjst/koa-handler
+  - desc: Build with Jamstack technologies
+    url: https://jamstack.org/
+    thumbnail: /static/img/jamstack.png
+    isVisible: true
+  - desc: "See the source code"
+    url: https://github.com/saxjst/whatimupto
     thumbnail: /static/img/octo-propaganda.jpg
     isVisible: true
 footerLinks:
   - icon: envelope
-    url: mailto:samuel@saxjst.com
+    url: mailto:contact@altertek.org
     title: mail
     isVisible: true
-  - icon: linkedin
-    title: linkedin
-    url: https://fr.linkedin.com/in/samueldjoset
-    isVisible: true
   - icon: globe
-    url: https://saxjst.com/
+    url: https://altertek.org/en
     title: website
     isVisible: true
   - icon: github
-    url: https://github.com/saxjst
+    url: https://github.com/altertek
     title: github
     isVisible: true
-  - icon: download
-    url: https://drive.google.com/file/d/1voDLLccBBt2vMqsTSpXcz9WYO2tOwlXq/view?usp=sharing
-    title: resume
+  - icon: twitter
+    url: https://twitter.com/altertek
+    title: twitter
     isVisible: true
