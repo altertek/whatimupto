@@ -1,6 +1,5 @@
 # Whatimupto
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c0c7239a-17f4-42a5-886c-0e17924712e1/deploy-status)](https://app.netlify.com/sites/admiring-noyce-84c88a/deploys)
 > Light and Standalone open source linktree with a git based backend
 
 ## Example
@@ -8,7 +7,7 @@
 https://whatimupto.saxjst.com
 
 <div align="center">
-<a href="https://whatimupto.saxjst.com">
+<a href="https://now.saxjst.com">
 	<img src="homepage-whatimupto.png" width="200" title="homepage">
 	<img src="backend-whatimupto-01.png" style="margin-top:5px;" width="200" title="homepage">
 	<img src="backend-whatimupto-02.png" style="margin-top:5px;" width="200" title="homepage">
@@ -17,8 +16,43 @@ https://whatimupto.saxjst.com
 </a>
 </div>
 
+## Getting Started
 
-### Technologies used:
+Detailed instructions are available in my blog. [Check it out](https://blog.surjithctly.in/neat-stack-create-a-static-website-with-netlify-cms-eleventy-alpinejs-and-tailwindcss)
+
+### 1\. Clone this Repository
+
+```
+git clone https://github.com/altertek/whatimupto.git
+```
+
+### 2\. Navigate to the directory
+
+```
+cd neat-starter
+```
+
+### 3\. Install dependencies
+
+```
+npm install
+```
+
+### 4\. Build the project to generate the first CSS
+
+This step is only required the very first time.
+
+```
+npm run build
+```
+
+### 5\. Run Eleventy
+
+```
+npm run start
+```
+
+## Technologies used:
 
 - [Netlify CMS](https://www.netlifycms.org/)
 - [Eleventy](https://www.11ty.dev/)
@@ -28,4 +62,4 @@ https://whatimupto.saxjst.com
 
 ## License
 
-MIT © [saxjst](https://saxjst.com)
+MIT © [altertek](https://altertek.org)
