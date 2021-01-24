@@ -3,7 +3,7 @@ backend:
   # name: test-repo
   ### enable below lines for github integration ###
   name: github
-  repo: altertek/whatimupto
+  repo: alpha14/whatimupto
   branch: master
 media_folder: "src/static/img"
 public_folder: "/static/img"
