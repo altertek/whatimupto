@@ -11,7 +11,7 @@ mainLinks:
     thumbnail: /static/img/jamstack.png
     isVisible: true
   - desc: "See the source code"
-    url: https://github.com/saxjst/whatimupto
+    url: https://github.com/altertek/whatimupto
     thumbnail: /static/img/octo-propaganda.jpg
     isVisible: true
 footerLinks:
