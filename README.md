@@ -29,7 +29,7 @@ git clone https://github.com/altertek/whatimupto.git
 ### 2\. Navigate to the directory
 
 ```
-cd neat-starter
+cd whatimupto
 ```
 
 ### 3\. Install dependencies
