@@ -1,6 +1,6 @@
 mainLinks:
   - desc: This open source project is made by Altertek
-    url: https://altertek.org/en/
+    url: https://altertek.org
     thumbnail: /static/img/altertek.png
     isVisible: true
   - desc: Use it as an alternative to linktree
@@ -20,7 +20,7 @@ footerLinks:
     title: mail
     isVisible: true
   - icon: globe
-    url: https://altertek.org/en
+    url: https://altertek.org
     title: website
     isVisible: true
   - icon: github
