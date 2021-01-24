@@ -20,17 +20,21 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
-    # Runs a single command using the runners shell
-    - name: Run a one-line script
-      run: echo Hello, world!
-
     - name: Clean folder
       run: rm -rf README.md .git
 
     - name: Generate website
       run: npm install && npm run build
 
+    - name: Deploy to Github pages
+      if: ${{ env.NETLIFY == '' }}
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./_site
+
     - name: Deploy to Netlify
+      if: ${{ env.NETLIFY != '' }}
       uses: nwtgck/actions-netlify@v1.1.5
       with:
         publish-dir: '_dist'
@@ -44,3 +48,6 @@ jobs:
         NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
         NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
       timeout-minutes: 1
+
+    env:
+      NETLIFY: ${{ secrets.NETLIFY_AUTH_TOKEN }}
