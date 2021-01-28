@@ -2,6 +2,7 @@
 
 > Light and Standalone open source linktree with a git based backend
 
+
 ## Example
 
 https://whatimupto.saxjst.com
@@ -19,6 +20,8 @@ https://whatimupto.saxjst.com
 ## Getting Started
 
 Detailed instructions are available in my blog. [Check it out](https://blog.surjithctly.in/neat-stack-create-a-static-website-with-netlify-cms-eleventy-alpinejs-and-tailwindcss)
+
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/altertek/whatimupto&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" /></a>
 
 ### 1\. Clone this Repository
 
