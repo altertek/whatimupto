@@ -6,7 +6,7 @@ backend:
   repo: altertek/whatimupto
   branch: master
 media_folder: "src/static/img"
-public_folder: "/static/img"
+public_folder: "static/img"
 
 # Please run "npx netlify-cms-proxy-server" for local backend
 local_backend: true

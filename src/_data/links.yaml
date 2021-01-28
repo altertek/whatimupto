@@ -1,18 +1,18 @@
 mainLinks:
   - desc: This free & open source project is made by Altertek
     url: https://altertek.org
-    thumbnail: /static/img/altertek.png
+    thumbnail: static/img/altertek.png
     isVisible: true
   - desc: Use it as an alternative to linktree
     url: https://linktr.ee
     isVisible: true
   - desc: Build with Jamstack technologies
     url: https://jamstack.org/
-    thumbnail: /static/img/jamstack.png
+    thumbnail: static/img/jamstack.png
     isVisible: true
   - desc: "See the source code"
     url: https://github.com/altertek/whatimupto
-    thumbnail: /static/img/octo-propaganda.jpg
+    thumbnail: static/img/octo-propaganda.jpg
     isVisible: true
 footerLinks:
   - icon: envelope

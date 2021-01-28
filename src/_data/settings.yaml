@@ -1,6 +1,6 @@
 name: Your Project
 pageTitle: whatimupto
 url: https://altertek.org/en/
-logo: /static/img/logo.jpg
-favicon: /static/img/logo.jpg
+logo: static/img/logo.jpg
+favicon: static/img/logo.jpg
 bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit
