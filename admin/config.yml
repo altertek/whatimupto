@@ -1,0 +1,71 @@
+backend:
+  # Use netlify identity as backend
+  # name: test-repo
+  ### enable below lines for github integration ###
+  name: github
+  repo: altertek/whatimupto
+  branch: master
+media_folder: "src/static/img"
+public_folder: "static/img"
+
+# Please run "npx netlify-cms-proxy-server" for local backend
+local_backend: true
+# publish_mode: editorial_workflow
+collections:
+  - label: "Homepage"
+    name: "homepage"
+    editor:
+      preview: false
+    files:
+      - label: "Links"
+        name: "items"
+        description: "contains social links"
+        file: "src/_data/links.yaml"
+        fields:
+          - label: Main Links
+            name: mainLinks
+            widget: list
+            allow_add: true
+            collapsed: false
+            fields:
+              - { label: Desc, name: desc, widget: string }
+              - { label: URL, name: url, widget: string }
+              - { label: Thumbnail, name: thumbnail, widget: image, required: false }
+              - { label: "Is visible", name: "isVisible", widget: "boolean", default: true }
+          - label: Footer Links
+            name: footerLinks
+            widget: list
+            allow_add: true
+            collapsed: false
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Icon, name: icon, widget: select, options: ["facebook", "linkedin", "twitter", "spotify", "globe", "home", "at", "github", "download", "envelope"] }
+              - { label: URL, name: url, widget: string }
+              - { label: "Is visible", name: "isVisible", widget: "boolean", default: true }
+      - label: "Style"
+        name: "style"
+        description: "style for the page"
+        file: "src/_data/style.yaml"
+        fields:
+          - { label: Background, name: background, widget: color, required: false }
+          - { label: Name, name: name, widget: color, required: false }
+          - { label: Bio, name: bio, widget: color, required: false }
+          - { label: Button First Color, name: buttonFirstColor, widget: color, required: false }
+          - { label: Button Second Color, name: buttonSecondColor, widget: color, required: false }
+          - { label: Footer First Color, name: footerFirstColor, widget: color, required: false }
+          - { label: Footer Second Color, name: footerSecondColor, widget: color, required: false }
+  - label: "Settings"
+    name: "settings"
+    editor:
+      preview: false
+    files:
+      - label: "Meta Settings"
+        name: "settings"
+        file: "src/_data/settings.yaml"
+        fields:
+          - { label: Name, name: name, widget: string }
+          - { label: PageTitle, name: pageTitle, widget: string }
+          - { label: URL, name: url, widget: string }
+          - { label: Logo, name: logo, widget: image, required: false }
+          - { label: Favicon, name: favicon, widget: image, required: false }
+          - { label: "Bio", name: "bio", widget: "text", required: false }
