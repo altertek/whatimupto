@@ -1,0 +1,15 @@
+image: node:10-buster-slim
+
+before_script:
+  - npm install
+
+pages:
+  stage: deploy
+  script:
+  - npm run build
+  - mv _site public
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
