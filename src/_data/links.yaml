@@ -7,7 +7,7 @@ mainLinks:
     url: https://linktr.ee
     isVisible: true
   - desc: Build with Jamstack technologies
-    url: https://jamstack.org/
+    url: https://jamstack.org
     thumbnail: static/img/jamstack.png
     isVisible: true
   - desc: "See the source code"
