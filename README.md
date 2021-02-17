@@ -23,6 +23,8 @@ Detailed instructions are available in my blog. [Check it out](https://blog.surj
 
 <a href="https://app.netlify.com/start/deploy?repository=https://github.com/altertek/whatimupto&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" /></a>
 
+<a href="https://gitlab.com/alpha14/whatimupto/-/forks/new">Deploy on Gitlab</a> | <a href="https://github.com/altertek/whatimupto/fork">Fork on Github</a>
+
 ### 1\. Clone this Repository
 
 ```
