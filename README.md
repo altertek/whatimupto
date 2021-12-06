@@ -5,7 +5,7 @@
 
 ## Example
 
-https://whatimupto.saxjst.com
+https://altertek.github.io/whatimupto 
 
 <div align="center">
 <a href="https://now.saxjst.com">
