@@ -40,7 +40,7 @@ cd whatimupto
 ### 3\. Install dependencies
 
 ```
-npm install
+npm ci
 ```
 
 ### 4\. Build the project to generate the first CSS

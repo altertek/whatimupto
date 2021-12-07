@@ -5,5 +5,4 @@ node_modules/
 .vscode/
 _site/
 *git/
-package-lock.json
 .env

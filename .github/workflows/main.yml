@@ -24,7 +24,7 @@ jobs:
       run: rm -rf README.md .git
 
     - name: Generate website
-      run: npm install && npm run build
+      run: npm ci && npm run build
 
     - name: Deploy to Github pages
       if: ${{ env.NETLIFY == '' }}
